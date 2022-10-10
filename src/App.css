@@ -1,0 +1,202 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500&display=swap"); */
+/* @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap'); */
+
+body {
+  background-image: url("https://i.ibb.co/h2hXpH1/blob-haikei.png");
+  background-repeat: no-repeat;
+}
+h1{
+  color: #4d4a4a;
+  font-size: 30px;
+}
+.logo{
+  padding-top: 12px;
+  font-size: 40px;
+  /* margin-top: 40px; */
+  letter-spacing: 5px;
+}
+.App {
+  height: 100%;
+  text-align: center;
+  /* padding: 1rem; */
+  display: flex;
+  flex-direction: column;
+}
+.line{
+  /* color: rgb(209, 209, 205); */
+  width: 50%;
+  margin-top: -21px;
+}
+.content {
+  /* flex: 1 0 auto; */
+  margin-top: 20px;
+}
+
+input[type="number"],
+select {
+  width: 100%;
+  /* max-width: 60%; */
+  padding: 12px 20px;
+  margin: 0.5rem 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="date"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 0.5rem 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  /* opacity: 0.6;
+  filter: invert(0.1); */
+  box-sizing: border-box;
+}
+#inp{
+  background-color: rgb(233, 231, 231);
+}
+
+form {
+  /* padding: 1rem; */
+  text-align: left;
+  margin: auto;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  margin: 1rem auto;
+  padding: 0.5rem 0.9rem;
+  border-radius: 0.3rem;
+  border: 1px solid #ccc;
+}
+
+li {
+  list-style: none;
+  text-align: left;
+  font-size: 19px;
+  /* font-weight: lighter; */
+  border: 1px solid #ccc;
+  border-radius: 0.4rem;
+  padding: 1rem;
+  background: azure;
+  color: rgb(86, 95, 95);
+  margin: 0.5rem;
+  /* font-family: Georgia, 'Times New Roman', Times, serif; */
+  /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+}
+
+li:hover {
+  box-shadow: 1px 1px 3px #c9c3d4;
+}
+
+.mw {
+  max-width: 300px;
+  margin: auto;
+  padding: 10px;
+}
+
+.flexy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 300px;
+  margin: auto;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+.heading{
+  background-color: rgb(233, 230, 230);
+  border-radius: 4px;
+  padding: 10px;
+  margin: 5px;
+}
+
+footer {
+  /* position: -webkit-sticky; */
+  margin-top: 1.3rem;
+  /* position: fixed; */
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  /* margin: 1rem auto; */
+  flex-shrink: 0;
+  background-color: rgb(240, 236, 236);
+  /* background-color: #A8A89E; */
+}
+
+footer a {
+  color: #1d4ed8;
+  /* text-decoration-color: black; */
+  font-family: Roboto Mono;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: none;
+}
+.Noavail{
+  background: azure;
+  padding: 10px;
+  border-radius: 7px;
+  border: 1px solid #ccc;
+  color: rgb(86, 95, 95);
+}
+.check{
+  font-size: 17px;
+}
+@media only screen and (max-width: 600px) {
+  .flexy {
+    display: block;
+  }
+
+  footer {
+    /* margin-top: 6rem; */
+    position: relative;
+  }
+
+  body {
+    background-size: 300px;
+  }
+  /* .content{
+    background-size: 300px;
+  } */
+}
+.pin{
+  display: flex;
+  justify-content: space-between;
+}
+.pin a{
+  text-decoration: none;
+  color: #1d4ed8;
+}
+.info{
+  /* padding: 1px; */
+  /* margin: 4px; */
+  margin-top: -5px;
+  color: rgb(86, 95, 95);
+}
+.love{
+  margin-top: -10px;
+}
+
+.animate {
+  margin: 2 auto;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.animate yash {
+  display: inline-block;
+  padding-left: 100%;
+  animation: animate 11s linear infinite;
+}
+
+/* Make it move */
+@keyframes animate {
+  0%   { transform: translate(0, 0); }
+  100% { transform: translate(-100%, 0); }
+}
